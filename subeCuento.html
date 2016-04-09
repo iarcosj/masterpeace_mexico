@@ -1,0 +1,59 @@
+	<!-- En esta pagina, la persona que eligio cuento, lo sube.-->
+	<!DOCTYPE html> 
+	<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Cuéntanos tu Cuento</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<head>
+	<body>
+		<header>
+			<div class="row">
+				<!--TEXTO ENCABEZADO-->
+				<div class="card-panel col s8 offset-s2" id="cardsucu">
+					<h2 class="center-align txthdr">Cuéntanos tu cuento</h2>		
+				</div>
+				<div class="col s1 offset-s1"> <!--ICONO QUE REGRESA A PÁG. INICIO-->
+					<a class="btn-floating btn-large waves-effect waves-light" href="index.html" id="tache"><i class="material-icons">done</i></a> 
+				</div>
+			</div>	
+		</header>
+		<!--ESTA SECCIÓN INCLUYE LOS CAMPOS EN LOS QUE EL USUARIO-->
+		<main>
+			<div class="row subeinfo">
+				<form class="col s8 offset-s2">
+					<!--TÍTULO DE LA OBRA-->
+	  	   			<input id="first_name" type="text" class="validate">
+	          		<label class="active" for="first_name"><h6>Título del Cuento.</h6></label>
+					<!--DESCRIPCIÓN DE LA OBRA-->
+					<textarea id="textarea1" class="materialize-textarea"></textarea>
+		        	<label class="active" for="textarea1"><h6>Escribe tu Cuento en menos de mil palabras.</h6></label>
+		        	<!--CORREO ELECTRÓNICO-->
+		           	<input id="email" type="email" class="validate">
+		        	<label class="active" for="email"><h6>Ingresa tu Correo Electrónico, por este medio nos pondremos en contacto contigo.</h6></label>
+				</form>
+			</div>
+			<!--TÉRMINOS Y CONDICIONES-->
+		  	<div class="row divacuerdos">
+			  	<div class="col s6 offset-s4">
+				  	<form action="#">
+					    <p>
+					      <input type="checkbox" id="test5"/>
+					      <label class="txtcond" for="test5">Acepto los términos y condiciones</label>
+					      <input type="checkbox" id="test6"/>
+					      <label class="txtcond" for="test6">Acepto las politicas de privacidad</label>
+					    </p>
+			 		 </form>
+			 	</div>
+	 		 </div>
+	 		 <!--BOTÓN QUE ENVÍA LA OBRA-->
+	 		 <div class="row">
+	 		 	<a class="waves-effect waves-light btn-large col s2 offset-s5" href="graciasCuento.html" id="botenviar">Enviar ahora</a>
+			</div>
+		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	</body>
+	</html>

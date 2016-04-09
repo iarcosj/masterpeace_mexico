@@ -1,0 +1,204 @@
+* {
+	padding: 0px;
+}
+body {
+	width: 100%;
+	background-color: #FDFAFC;
+	font-size: 1.2em !important;
+}
+#tache {/*Icono (Paloma) que regresa a la PÁGINA INICIO*/
+	background-color: #424242;
+	display: block;
+	margin-top: 30px;
+}
+/*INICIA TEXTOS DE HEADERS*/
+.txthdr { /*Texto encabezado de todas las páginas*/
+	color: #ffffff;
+	font-size: 3.4em;
+	padding: 10px 0px 10px;
+}
+.txtnota { /*Texto que especifica notas del concurso en SUBE CARI y SUBE FOTO*/
+	color: #ffffff;
+	margin-top: -22px;
+	padding: 10px 0px 22px;
+}
+/*TERMINA TEXTOS DE HEADERS*/
+/*INICIA INDEX*/
+.tarjetas {/*Header Index*/
+	color: white;
+	background-color: yellow;
+}
+.divs{
+	display: block;
+}
+	/*Botones*/
+#botonindex1 {
+	font-size: 1.4em !important;
+	text-decoration: blink;
+	background-color: gray;
+	color: white;
+}
+#botonindex2 {
+	font-size: 1.4em !important;
+	text-decoration: blink;
+	background-color: gray;
+	color: white;
+}
+	/*Botones*/
+/*TERMINA INDEX*/
+/*INICIA BASES*/
+	/*Fondo encabezados*/
+#cardbss {
+	background-color: #00BAB1;
+}
+	/*Fondo encabezados*/
+	/*Texto main*/
+#txtbss {
+	font-size: 1.48em !important;
+	text-align: justify-all;
+	align-items: center;
+	padding: 60px 60px 60px;
+	background-color: #8ee5d2;
+	/*Texto main*/
+}
+/*TERMINA BASES*/
+/*INICIA LOGIN FACEBOOK y LOGIN TWITTER*/
+	/*Texto encabezados*/
+#cardlgnfb { /*Facebook*/
+	background-color: #4e69a2;
+}
+#cardlgntw { /*Twitter*/
+	background-color: #1DA1F2;
+}
+	/*Texto encabezados*/
+.cardtxtgrcs { /*Espacio para caja registro LoginFB / LoginTW*/
+	background-color: #ffca28;
+	padding: 60px 0px 60px;
+	font-weight: bold;
+	color: #ff0000;
+}
+/*TERMINA LOGIN FACEBOOK y LOGIN TWITTER*/
+/*INICIA CONÉCTATE*/
+#cardcnct { /*Header*/
+	background-color: #F81B2E;
+	padding: 20px 0px 20px;
+}
+	/*Botones*/
+#botfb { /*Botón FB*/
+	font-size: 1.68em;
+	color: white;
+	background-color: #F7086E;
+	margin-top: 40px;
+}
+#bottw { /*Botón TW*/
+	font-size: 1.68em;
+	color: white;	
+	background-color: #F7086E;
+	margin-top: 40px;
+}
+	/*Botones*/
+/*TERMINA CONÉCTATE*/
+/*INICIA GRACIAS CUENTO, CARI y FOTO*/
+	/*Fondo encabezados*/
+#tjtgraciasca { /*Caricatura*/
+	background-color: #019EE8;
+}
+#tjtgraciascu { /*Cuento*/
+	background-color: #87BB01;
+}
+#tjtgraciasfo { /*Fotografía*/
+	background-color: #FC016D;
+}
+	/*Fondo encabezados*/
+	/*Texto*/
+.txtgracias { /*Agradecimiento*/
+	color: white;
+	padding: 20px 0px 20px;
+}
+	/*Texto*/
+/*TERMINA GRACIAS CUENTO, CARI y FOTO*/
+/*INICIA SUBE CUENTO, SUBE CARI y SUBE FOTO*/
+	/*Fondo encabezados*/
+#cardsuca { /*Caricatura*/
+	background-color: #019EE8;
+}
+#cardsucu { /*Cuento*/
+	background-color: #87BB01;
+}
+#cardsufo { /*Fotografía*/
+	background-color: #FC016D;
+}
+	/*Fondo encabezados*/
+	/*Inputs de datos usuario y obras*/
+#first_name {/*Título de la obra*/
+	font-size: 1.6em !important;
+	margin-top: 15px; 
+	color: #424242;
+}
+#textarea1 {/*Descripción de la obra*/
+	font-size: 1.6em !important;
+	height: 300px;
+	margin-top: 15px;
+	color: #424242;
+}
+#email {/*Correo del participante*/
+	font-size: 1.6em !important;
+	margin-top: 15px;
+	color: #424242;
+}
+	/*Campos datos usuario y obras*/
+label h6 {/*Formato de texto a IDs: #first_name, #textarea1, y #email*/
+	font-size: 1.4em !important;
+	margin-top: -3px;
+}
+	/*Campos datos usuario y obras*/
+	/*Inputs "Términos y Condiciones"*/
+.txtcond {/*Formato LABELs*/
+	font-size: 1.4em !important;
+}
+	/*Inputs "Términos y Condiciones"*/
+	/*Divs*/
+.subeinfo {/*Integra los campos que el concursante llenará*/
+	margin-top: 40px;
+	font-size: 1.6em !important;
+}
+.divacuerdos {/*Integra los inputs para "Términos... y Privacidad"*/
+	display: block;
+	margin-top: 40px;
+}
+	/*Divs*/
+	/*Botones*/
+#botsuca { /*Subir caricatura*/
+	background-color: #019EE8;
+}
+#botsufo { /*Subir foto*/
+	background-color: #FC016D;	
+}
+#botenviar { /*Enviar ahora*/
+	font-size: 1.68em;
+	color: white;
+	background-color: #F7086E;
+	margin-top: 40px;
+}
+	/*Botones*/
+	/*Recuadro sube/arrastra archivo*/
+.subir {
+	font-size: 1.2em !important;
+	text-align: center;
+	color: #424242;
+}
+	/*Recuadro sube/arrastra archivo*/
+/*TERMINA SUBE CUENTO, SUBE CARI y SUBE FOTO*/
+/*INICIA TIPO PIEZA*/
+#cardtppz {
+	background-color: #ff6f00;
+}
+	/*Botones*/
+#botobra {
+	font-size: 1.68em;
+	color: white;
+	background-color: #F7086E;
+	margin-top: 40px;
+}
+	/*Botones*/
+/*TERMINA TIPO PIEZA*/
