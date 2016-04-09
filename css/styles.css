@@ -12,39 +12,106 @@ body {
 	margin-top: 30px;
 }
 /*INICIA TEXTOS DE HEADERS*/
-.txthdr { /*Texto encabezado de todas las páginas*/
+.txthdr { /*Texto encabezado de todas las páginas excepto INDEX*/
 	color: #ffffff;
 	font-size: 3.4em;
 	padding: 10px 0px 10px;
 }
 .txtnota { /*Texto que especifica notas del concurso en SUBE CARI y SUBE FOTO*/
+	font-size: 1.2em;
 	color: #ffffff;
 	margin-top: -22px;
 	padding: 10px 0px 22px;
 }
 /*TERMINA TEXTOS DE HEADERS*/
 /*INICIA INDEX*/
-.tarjetas {/*Header Index*/
-	color: white;
-	background-color: yellow;
+#hdrndx { /*Header*/
+	background-color: #FAF6EA; 
+	background-image: ;
+	margin-bottom: 0px;
 }
-.divs{
-	display: block;
+#mnndx { /*Main*/
+	background-color: #FFFFFF;
+}
+	/*DIVs header*/
+#divimgndx { /*Imagen*/
+	margin-top: 14px;
+	border-color: transparent;
+}
+#divtxtndx { /*Fondo texto*/
+	margin-top: 14px;
+	background-color: #FAF6EA;
+}
+	/*DIVs header*/
+	/*Texto header*/
+.txthdrndx { /*Texto encabezado*/
+	letter-spacing: 0.04em;
+	text-align: right;
+	font-weight: bolder;
+	color: #81394F;
+	padding-bottom: 20px;
+	font-size: 3.4em;
+}
+	/*Texto header*/
+	/*Botones*/
+.divbotndx { /*DIV*/
+	background-color: #FCC300 !important;
+	height: 80px !important;
+}
+.botndx { /*Botones*/
+	font-size: 1.68em;
+	text-decoration: blink;
+	color: white;
+	margin-top: 13px;
+	background-color: #2B272B !important;
 }
 	/*Botones*/
-#botonindex1 {
-	font-size: 1.4em !important;
-	text-decoration: blink;
-	background-color: gray;
-	color: white;
+	/*Barra búsqueda*/
+#search {
+	font-size: 1.2em;
+	color: #424242;
 }
-#botonindex2 {
-	font-size: 1.4em !important;
-	text-decoration: blink;
-	background-color: gray;
-	color: white;
+	/*Barra búsqueda*/
+	/*Obras publicadas*/
+#sctndxcu { /*Sección Cuento*/
+	height: 280px;
+	margin-bottom: 34px !important;
+	background-color: #87BB01;
 }
-	/*Botones*/
+#sctndxfo { /*Sección Fotografía*/
+	height: 408px;
+	margin-bottom: 34px !important;
+	background-color: #FC016D;
+}
+#sctndxca { /*Sección Caricatura*/
+	height: 408px;
+	margin-bottom: 34px !important;
+	background-color: #019EE8;
+}
+#avtrndx { /*Avatar concursante*/
+	height: 240px;
+	background-color: #FDFAFC;
+	border-color: transparent;
+	margin-top: 10px;
+}
+.autor { /*Autor concursante*/
+	color: #FFFFFF;
+}
+.obra {	/*Obra concursante*/
+	color: #FFFFFF;
+}
+.descobra { /*Descripción obra*/
+	color: #FFFFFF;
+}
+.obraslds { /*Slides obras*/
+	height: 184px;
+	background-color: #FDFAFC;
+}
+.obraslds h3 {
+	color: #C8C8C8;
+	text-align: center;
+}
+	/*Obras publicadas*/
 /*TERMINA INDEX*/
 /*INICIA BASES*/
 	/*Fondo encabezados*/
@@ -132,18 +199,23 @@ body {
 	/*Inputs de datos usuario y obras*/
 #first_name {/*Título de la obra*/
 	font-size: 1.6em !important;
+	font-weight: lighter;
 	margin-top: 15px; 
+	padding-bottom: 8px;
 	color: #424242;
 }
 #textarea1 {/*Descripción de la obra*/
 	font-size: 1.6em !important;
+	font-weight: lighter;
 	height: 300px;
 	margin-top: 15px;
 	color: #424242;
 }
 #email {/*Correo del participante*/
 	font-size: 1.6em !important;
+	font-weight: lighter;
 	margin-top: 15px;
+	padding-bottom: 8px;
 	color: #424242;
 }
 	/*Campos datos usuario y obras*/
